@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+struct node
+{  int data;
+   struct node*next;
+};
+void displayll(struct node*p)
+{  while(p!=Null)
+ {scanf("%d")
+struct node*insertfirst(int head)
+  {    struct node *ptr=(struct node *)malloc(sizeof(ptr->data));
+       int data;
+       printf("enter data")
+       scanf("%d",data);
+       ptr->data=data;
+       ptr->next=head;
+       return head;
+       
+int main()
+{
+    struct node *head,*one,*two;
+    one=(struct node*)malloc(sizeof(one->data));
+    two=(struct node*)malloc(sizeof(two->data));
+    one->data=78;
+    two->data=56;
+    one->next=two;
+    two->next=NULL;
+    return 0;
+}
