@@ -19,7 +19,7 @@ struct node*insertfirst(int head)
        
 int main()
 {
-    struct node *head,*one,*two;
+    struct node *;
     one=(struct node*)malloc(sizeof(one->data));
     two=(struct node*)malloc(sizeof(two->data));
     one->data=78;
